@@ -15,6 +15,6 @@
 - VS CODE
 - GIT & GITHUB
 ## Live link
-https://ojayallday.github.io/Portfolio_Landing_Page
+ https://ojayallday.github.io/bootandjava/
 ## Copyright and License information
 - (C) 2023 Julius Ojala Ojakaa

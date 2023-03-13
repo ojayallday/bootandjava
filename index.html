@@ -13,32 +13,45 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
 
   <!-- CSS Files Links -->
+  <link rel="stylesheet" href="./css/bootstrap.css" type="text/css" media="all">
   <link rel="stylesheet" href="./css/styles.css">
 
   <!-- Title -->
   <title>Simple Page</title>
 </head>
 <body>
-  <header>
-    <h1>Akran Name Generator</h1>
-  </header>
+ 
 
   <main>
-    
-    <form>
-        <div>
-            <input type="date" name="birthdate" value="birthdate">
-            <select name="gender" id="gender">
-                <option value="male">male</option>
-                <option value="female">female</option>
-                
-            </select>
-            <button type="button" onclick="updateUI()">Submit</button>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Akran Name Generator</h1>    
         </div>
-    </form>
-    <p id="result">
+        <div class="row">
+            <div class="card" class="float-left" style="width: 20rem;">
+                <form>
+                    <div>
+                        <input type="date" name="birthdate" value="birthdate">
+                        <select name="gender" id="gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            
+                        </select>
+                        <button type="button" onclick="updateUI()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="card" class="float-right" style="width: 18rem;">
+                <p id="result">
+                 
+                </p>
+            </div>
+        </div>
         
-    </p>
+    </div>
+    
+    
   </main>
 
   

@@ -1,6 +1,4 @@
-/**
- * SOLID principles, Single Responsibility. Avoid repeating yourself.
- */
+
 
 /**
  * Function to get the day of the week.
@@ -18,18 +16,14 @@ function getDayOfTheWeek(birthDate){
 function updateUI(){
     let birthDate = document.querySelector('input[type="date"]').value
     birthDate = new Date(birthDate);
-    console.log(birthDate)
-    /*let birthDate;
-    document.querySelector('input[type="date"]').addEventListener("change", function() {
-        let input = this.value;
-        birthDate = new Date(input);
-    });*/
-    console.log(birthDate)
+    
+    
+    
     const gender = document.getElementById("gender").value 
-    console.log(gender)
+    
     const dayOfWeek = getDayOfTheWeek(birthDate);
     const name = akranName(dayOfWeek, gender);
-    document.getElementById("result").innerHTML = name;
+    document.getElementById("result").innerHTML ="Your akran name is " + name;
 }
 
 /**
