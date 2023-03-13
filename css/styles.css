@@ -1,0 +1,12 @@
+.container{
+    background-color: aquamarine;
+}
+.card{
+    background-color: rgb(0, 255, 217);
+}
+#result{
+    font-weight: bold;
+}
+.form_item{
+    padding: 10;
+}

@@ -25,19 +25,19 @@
   <main>
     <div class="container">
         <div class="jumbotron">
-            <h1>Akran Name Generator</h1>    
+            <h1 class="heading">Akran Name Generator</h1>    
         </div>
         <div class="row">
-            <div class="card" class="float-left" style="width: 20rem;">
+            <div class="card" class="float-left" style="width: 25rem;">
                 <form>
                     <div>
-                        <input type="date" name="birthdate" value="birthdate">
-                        <select name="gender" id="gender">
+                        <input type="date" name="birthdate" value="birthdate" class="form_item">
+                        <select name="gender" id="gender" class="form_item">
                             <option value="male">male</option>
                             <option value="female">female</option>
                             
                         </select>
-                        <button type="button" onclick="updateUI()">Submit</button>
+                        <button type="button" class="btn btn-primary" class="form_item" onclick="updateUI()">Submit</button>
                     </div>
                 </form>
             </div>

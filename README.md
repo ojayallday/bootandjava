@@ -3,7 +3,7 @@
 ## Author
 - Julius Ojala Ojakaa
 ## Project Description
-- A simple  HTML and Javascript program executing the Akran naming convention.
+- A simple  HTML and Javascript program generating Akran (Ghanaian naming convention) Names based on birth date and gender.
 ## Project Setup Instructions
 - Git Clone https://github.com/ojayallday/bootandjava.git
 - Open the cloned folder in vs code
